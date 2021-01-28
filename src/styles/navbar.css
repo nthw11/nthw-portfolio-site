@@ -1,0 +1,66 @@
+nav {
+  /* height: 150px; */
+  max-width: 100%;
+}
+.nav-mini-bar {
+  display: none;
+}
+#nthw-logo {
+  font-family: 'Staatliches', cursive;
+  font-size: 8rem;
+  color: #222;
+  text-decoration: none;
+  position: relative;
+  top: -25px;
+  /* float: left; */
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  flex-shrink: 3;
+}
+
+.nav-bar li {
+  list-style: none;
+  margin-right: 30px;
+  font-family: 'Bebas Neue', cursive;
+  color: #222;
+}
+.nav-bar a:any-link {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+@media (max-width: 1040px) {
+  .nav-bar a:any-link {
+    display: none;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-mini-bar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #222;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-mini-bar a:any-link {
+    text-decoration: none;
+  }
+}
+.navbar__link--active {
+  color: #fff;
+}
+.logo__link--active {
+  color: #fff;
+}
