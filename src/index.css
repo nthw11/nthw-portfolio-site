@@ -15,10 +15,54 @@ font-family: 'Staatliches', cursive; */
   font-family: 'Bebas Neue', cursive;
   font-size: 4rem;
 }
+.headline {
+  width: 70%;
+  margin: auto;
+}
+.headline h1 {
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 2rem;
+  color: #222;
+  margin: 20px;
+}
+.home-page {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
 .header {
   width: 450px;
   font-family: 'Source Sance Pro', sans-serif;
   font-size: 2rem;
   color: #fff;
   margin: 20px;
+}
+#red-portrait img {
+  width: 250px;
+  /* height: 300px; */
+  border: 5px solid #000;
+  border-radius: 150px;
+}
+#info {
+  padding-bottom: 65px;
+
+  border-top: 10px solid #222;
+}
+.about-page {
+  width: 55%;
+  margin: auto;
+}
+.about-page h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  color: #222;
+}
+.about-page p {
+  padding: 10px 15px 25px 15px;
+  /* background-color: #fdd; */
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
 }

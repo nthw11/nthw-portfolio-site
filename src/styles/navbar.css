@@ -64,3 +64,30 @@ nav {
 .logo__link--active {
   color: #fff;
 }
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 10px;
+  /* border-top: 2px solid #222; */
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#footer-copyright {
+  font-family: 'Bebas Neue', cursive;
+  color: #222;
+  font-size: 0.8rem;
+  float: left;
+}
+
+.footer-social-icon img {
+  color: #222;
+  width: 20px;
+  margin-right: 20px;
+  stroke: #222;
+}
