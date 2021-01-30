@@ -9,7 +9,8 @@ const Contact = () => {
         // onSubmit={}
         method='POST'
       >
-        <input type='text' placeholder='name' />
+        <label htmlFor=''></label>
+        <input type='text' id='name' placeholder='name' />
         <input type='email' id='email' placeholder='email address' />
         <input type='text' id='subject' placeholder='subject' />
         <input type='text' id='message' placeholder='message' />
