@@ -65,24 +65,33 @@ nav {
   color: #fff;
 }
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100%;
   margin: auto;
   margin-top: 25px;
   padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   /* border-top: 2px solid #222; */
 }
 .social-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
 }
 #footer-copyright {
+  grid-column-start: 3;
+  grid-column-end: 4;
   font-family: 'Bebas Neue', cursive;
   color: #222;
   font-size: 0.8rem;
-  float: left;
+  align-self: end;
+  justify-self: end;
+  /* float: right; */
+  margin-right: 10px;
 }
 
 .footer-social-icon img {
@@ -90,4 +99,18 @@ nav {
   width: 20px;
   margin-right: 20px;
   stroke: #222;
+}
+.contact-info {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 10px;
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 1rem;
+  color: #222;
+}
+#email a:any-link {
+  text-decoration: none;
+}
+#email #name #phone {
+  margin-bottom: 20px;
 }

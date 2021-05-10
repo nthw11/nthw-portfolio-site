@@ -35,7 +35,7 @@ const Navbar = () => {
               Portfolio
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               exact
               activeClassName='navbar__link--active'
@@ -44,7 +44,7 @@ const Navbar = () => {
             >
               Blog
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               exact
@@ -77,7 +77,7 @@ const Navbar = () => {
               Portfolio
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               exact
               activeClassName='navbar__link--active'
@@ -86,7 +86,7 @@ const Navbar = () => {
             >
               Blog
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               exact
